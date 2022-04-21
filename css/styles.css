@@ -24,16 +24,16 @@ body {
 
 /* header */
 
-.header {
-    color: var(--title-text-color);
-    margin-left: auto;
-    margin-right: auto;
+.header { 
+    border-bottom: var(--title-text-color);
 }
 
 .container {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .nav {
@@ -52,11 +52,16 @@ body {
     display: block;
     padding-top: 24px;
     padding-bottom: 25px;
-    margin-left: 93px;
 }
 
 .logo-web {
     color: var(--accent-color);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .link, 
@@ -76,9 +81,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     display: flex;
-    margin: 0;
     margin-left: 93px;
-    padding: 0;
     list-style: none;
 }
 
@@ -87,9 +90,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     display: flex;
-    margin: 0;
     margin-left: auto;
-    padding: 0;
     list-style: none;
 }
 
@@ -149,7 +150,8 @@ body {
 .background {
     background-color: var(--pimary-gray-color);
     text-align: center;
-    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .solutions {
@@ -159,10 +161,8 @@ body {
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
-    margin-top: 200px;
     margin-bottom: 30px;
-    margin-left: 237px;
-    margin-right: 237px;
+    margin: auto;
     width: 696px;
 }
 
@@ -177,7 +177,6 @@ body {
     border: none;
     border-radius: 4px;
     padding: 10px 32px;
-    margin-bottom: 200px;
 }
 
 /* Особенности */
@@ -192,8 +191,12 @@ body {
     display: flex;
 }
 
-.list-img {
+.list li {
     margin-right: 30px;
+}
+
+.list li:last-child {
+    margin-right: 0;
 }
 
 .list-h {
@@ -204,7 +207,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     width: 270px;
-    margin-top: 0;
+    margin: 0;
     margin-bottom: 10px;
 }
 
@@ -213,8 +216,10 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     width: 270px;
+    margin-top: 0;
     margin-bottom: 0;
 }
+
 
 /* Чем мы занимаемся */
 
@@ -226,8 +231,14 @@ body {
     letter-spacing: 0.03em;
     text-align: center;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 50px;
 }
+
+img {
+    display: block;
+    height: auto;
+}
+
 
 /* наша команда */
 
@@ -298,7 +309,6 @@ body {
     line-height: 1.19;
     text-decoration: none;
     color: var(--title-text-color);
-    margin-left: 93px;
 }
 
 .link-two {
@@ -306,8 +316,6 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     display: block;
-    margin: 0;
-    margin-left: 93px;
     padding: 0;
     list-style: none;
     margin-top: 20px;
@@ -315,6 +323,10 @@ body {
 
 .link-cont {
     margin-bottom: 9px;
+}
+
+.link-cont:last-child {
+    margin-bottom: 0;
 }
 
 .cont-one {
@@ -356,8 +368,7 @@ body {
     letter-spacing: 0.02em;
     display: flex;
     margin: 0;
-    margin-left: 93px;
-    padding: 0;
+    margin-bottom: 50px;
     list-style: none;
     justify-content: center;
 }
@@ -387,16 +398,12 @@ body {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    padding: 0px;
 }
 
 .list-card {
     background: var(--title-text-color);
-    border: 1px solid var(--primary-eee-color);
-    box-sizing: border-box;
     margin-right: 30px;
     margin-bottom: 30px;
-    width: 370px;
 }
 
 .list-card:nth-child(3n) {
@@ -411,14 +418,20 @@ body {
     text-decoration: none;
 }
 
+.des-card {
+    padding: 20px 24px;
+    border-left: 1px solid var(--primary-eee-color);
+    border-right: 1px solid var(--primary-eee-color);
+    border-bottom: 1px solid var(--primary-eee-color);
+}
+
 .name-one {
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin-left: 24px;
-    margin-right: 24px;
+    margin-bottom: 4px;
 }
 
 .description-one {
@@ -426,7 +439,4 @@ body {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-bottom: 20px;
 }
