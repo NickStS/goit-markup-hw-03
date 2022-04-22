@@ -161,7 +161,6 @@ ul {
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
-    margin-bottom: 30px;
     margin: auto;
     width: 696px;
 }
@@ -176,6 +175,7 @@ ul {
     letter-spacing: 0.06em;
     border: none;
     border-radius: 4px;
+    margin-top: 30px;
     padding: 10px 32px;
 }
 
@@ -222,6 +222,10 @@ ul {
 
 
 /* Чем мы занимаемся */
+
+.do-section {
+    padding-top: 0;
+}
 
 .doing {
     color: var(--primary-text-color);
@@ -439,4 +443,5 @@ img {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
+    margin: 0;
 }
