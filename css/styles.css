@@ -184,6 +184,7 @@ ul {
 .opasity {
     opacity: 0;
     display: none;
+    margin: 0;
 }
 
 .list {
@@ -216,8 +217,7 @@ ul {
     line-height: 1.71;
     letter-spacing: 0.03em;
     width: 270px;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 
@@ -234,7 +234,7 @@ ul {
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-align: center;
-    margin-top: 0;
+    margin: 0;
     margin-bottom: 50px;
 }
 
@@ -257,6 +257,7 @@ img {
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-align: center;
+    margin: 0;
     margin-bottom: 50px;
 }
 
@@ -266,8 +267,8 @@ img {
     line-height: 1.18;
     letter-spacing: 0.03em;
     text-align: center;
+    margin: 0;
     margin-top: 30px;
-    margin-bottom: 0px;
 }
 
 .description-team {
@@ -276,6 +277,7 @@ img {
     line-height: 1.18;
     letter-spacing: 0.03em;
     text-align: center;
+    margin: 0;
     margin-bottom: 30px;
     margin-top: 10px;
 }
@@ -289,11 +291,6 @@ img {
 
 .card:last-child {
     margin-right: 0px;
-}
-
-.img-four {
-    border-radius: 0px;
-    width: 270;
 }
 
 
@@ -387,7 +384,7 @@ img {
     letter-spacing: 0.06em;
     border: none;
     border-radius: 4px;
-    padding: 10px 32px;
+    padding: 6px 22px;
     margin-left: 8px;
 }
 
@@ -435,6 +432,7 @@ img {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin: 0;
     margin-bottom: 4px;
 }
 
